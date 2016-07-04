@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		41FA43B71D29B9FD00C7D876 /* TestChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41FA43B71D29B9FD00C7D876 /* HABarChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HABarChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41FA43BB1D29B9FD00C7D876 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		41FA43BD1D29B9FD00C7D876 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		41FA43BE1D29B9FD00C7D876 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -78,7 +78,7 @@
 		41FA43AE1D29B9FD00C7D876 = {
 			isa = PBXGroup;
 			children = (
-				41FA43B91D29B9FD00C7D876 /* TestChart */,
+				41FA43B91D29B9FD00C7D876 /* HABarChart */,
 				41FA43B81D29B9FD00C7D876 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,12 +86,12 @@
 		41FA43B81D29B9FD00C7D876 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				41FA43B71D29B9FD00C7D876 /* TestChart.app */,
+				41FA43B71D29B9FD00C7D876 /* HABarChart.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		41FA43B91D29B9FD00C7D876 /* TestChart */ = {
+		41FA43B91D29B9FD00C7D876 /* HABarChart */ = {
 			isa = PBXGroup;
 			children = (
 				41FA43BD1D29B9FD00C7D876 /* AppDelegate.h */,
@@ -107,6 +107,7 @@
 				41FA43CB1D29B9FD00C7D876 /* Info.plist */,
 				41FA43BA1D29B9FD00C7D876 /* Supporting Files */,
 			);
+			name = HABarChart;
 			path = TestChart;
 			sourceTree = "<group>";
 		};
@@ -121,9 +122,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		41FA43B61D29B9FD00C7D876 /* TestChart */ = {
+		41FA43B61D29B9FD00C7D876 /* HABarChart */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 41FA43CE1D29B9FD00C7D876 /* Build configuration list for PBXNativeTarget "TestChart" */;
+			buildConfigurationList = 41FA43CE1D29B9FD00C7D876 /* Build configuration list for PBXNativeTarget "HABarChart" */;
 			buildPhases = (
 				41FA43B31D29B9FD00C7D876 /* Sources */,
 				41FA43B41D29B9FD00C7D876 /* Frameworks */,
@@ -133,9 +134,9 @@
 			);
 			dependencies = (
 			);
-			name = TestChart;
+			name = HABarChart;
 			productName = TestChart;
-			productReference = 41FA43B71D29B9FD00C7D876 /* TestChart.app */;
+			productReference = 41FA43B71D29B9FD00C7D876 /* HABarChart.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -152,7 +153,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 41FA43B21D29B9FD00C7D876 /* Build configuration list for PBXProject "TestChart" */;
+			buildConfigurationList = 41FA43B21D29B9FD00C7D876 /* Build configuration list for PBXProject "HABarChart" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -165,7 +166,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				41FA43B61D29B9FD00C7D876 /* TestChart */,
+				41FA43B61D29B9FD00C7D876 /* HABarChart */,
 			);
 		};
 /* End PBXProject section */
@@ -310,7 +311,7 @@
 				INFOPLIST_FILE = TestChart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = d.TestChart;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HABarChart;
 			};
 			name = Debug;
 		};
@@ -321,14 +322,14 @@
 				INFOPLIST_FILE = TestChart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = d.TestChart;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = HABarChart;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		41FA43B21D29B9FD00C7D876 /* Build configuration list for PBXProject "TestChart" */ = {
+		41FA43B21D29B9FD00C7D876 /* Build configuration list for PBXProject "HABarChart" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				41FA43CC1D29B9FD00C7D876 /* Debug */,
@@ -337,7 +338,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		41FA43CE1D29B9FD00C7D876 /* Build configuration list for PBXNativeTarget "TestChart" */ = {
+		41FA43CE1D29B9FD00C7D876 /* Build configuration list for PBXNativeTarget "HABarChart" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				41FA43CF1D29B9FD00C7D876 /* Debug */,

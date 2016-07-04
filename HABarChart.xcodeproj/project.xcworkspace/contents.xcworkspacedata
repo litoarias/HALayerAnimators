@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:TestChart.xcodeproj">
+      location = "self:/Users/Lito/Projects/GITHUB/HABarChart/HABarChart/HABarChart.xcodeproj">
    </FileRef>
 </Workspace>
