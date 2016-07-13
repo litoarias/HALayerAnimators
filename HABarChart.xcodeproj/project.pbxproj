@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		41215C1D1D36F4C9005E2383 /* BarLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 41215C161D36F4C9005E2383 /* BarLayer.m */; };
 		41215C1E1D36F4C9005E2383 /* BarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41215C181D36F4C9005E2383 /* BarView.m */; };
 		41215C1F1D36F4C9005E2383 /* CircleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 41215C1A1D36F4C9005E2383 /* CircleLayer.m */; };
@@ -39,6 +40,36 @@
 		41215C351D36F57A005E2383 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41215C361D36F57A005E2383 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		41FA43B71D29B9FD00C7D876 /* HABarChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HABarChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+=======
+		41FA43BC1D29B9FD00C7D876 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41FA43BB1D29B9FD00C7D876 /* main.m */; };
+		41FA43BF1D29B9FD00C7D876 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41FA43BE1D29B9FD00C7D876 /* AppDelegate.m */; };
+		41FA43C21D29B9FD00C7D876 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41FA43C11D29B9FD00C7D876 /* ViewController.m */; };
+		41FA43C51D29B9FD00C7D876 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41FA43C31D29B9FD00C7D876 /* Main.storyboard */; };
+		41FA43C71D29B9FD00C7D876 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41FA43C61D29B9FD00C7D876 /* Assets.xcassets */; };
+		41FA43CA1D29B9FD00C7D876 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41FA43C81D29B9FD00C7D876 /* LaunchScreen.storyboard */; };
+		41FA43D31D29BA2A00C7D876 /* BarLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 41FA43D21D29BA2A00C7D876 /* BarLayer.m */; };
+		41FA43D61D29BA8400C7D876 /* BarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41FA43D51D29BA8400C7D876 /* BarView.m */; };
+		41FA43D91D29C29F00C7D876 /* LineLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 41FA43D81D29C29F00C7D876 /* LineLayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		41FA43B71D29B9FD00C7D876 /* HABarChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HABarChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41FA43BB1D29B9FD00C7D876 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41FA43BD1D29B9FD00C7D876 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		41FA43BE1D29B9FD00C7D876 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		41FA43C01D29B9FD00C7D876 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		41FA43C11D29B9FD00C7D876 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		41FA43C41D29B9FD00C7D876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41FA43C61D29B9FD00C7D876 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41FA43C91D29B9FD00C7D876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		41FA43CB1D29B9FD00C7D876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41FA43D11D29BA2A00C7D876 /* BarLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarLayer.h; sourceTree = "<group>"; };
+		41FA43D21D29BA2A00C7D876 /* BarLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarLayer.m; sourceTree = "<group>"; };
+		41FA43D41D29BA8400C7D876 /* BarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarView.h; sourceTree = "<group>"; };
+		41FA43D51D29BA8400C7D876 /* BarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarView.m; sourceTree = "<group>"; };
+		41FA43D71D29C29F00C7D876 /* LineLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineLayer.h; sourceTree = "<group>"; };
+		41FA43D81D29C29F00C7D876 /* LineLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineLayer.m; sourceTree = "<group>"; };
+>>>>>>> 26fcb34494ad2867c3c0c14420cddca1f567690e
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +83,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+<<<<<<< HEAD
 		41215C141D36F4C9005E2383 /* HABarChat */ = {
 			isa = PBXGroup;
 			children = (
@@ -89,13 +121,44 @@
 				41215C361D36F57A005E2383 /* main.m */,
 			);
 			path = SupportingFiles;
+=======
+		4141F57E1D29DD0200192718 /* CircleLayer */ = {
+			isa = PBXGroup;
+			children = (
+				41FA43D11D29BA2A00C7D876 /* BarLayer.h */,
+				41FA43D21D29BA2A00C7D876 /* BarLayer.m */,
+			);
+			name = CircleLayer;
+			sourceTree = "<group>";
+		};
+		4141F57F1D29DD0E00192718 /* LineLayer */ = {
+			isa = PBXGroup;
+			children = (
+				41FA43D71D29C29F00C7D876 /* LineLayer.h */,
+				41FA43D81D29C29F00C7D876 /* LineLayer.m */,
+			);
+			name = LineLayer;
+			sourceTree = "<group>";
+		};
+		4141F5801D29DD1800192718 /* Line&CircleView */ = {
+			isa = PBXGroup;
+			children = (
+				41FA43D41D29BA8400C7D876 /* BarView.h */,
+				41FA43D51D29BA8400C7D876 /* BarView.m */,
+			);
+			name = "Line&CircleView";
+>>>>>>> 26fcb34494ad2867c3c0c14420cddca1f567690e
 			sourceTree = "<group>";
 		};
 		41FA43AE1D29B9FD00C7D876 = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				41215C211D36F4FD005E2383 /* ExampleProject */,
 				41215C141D36F4C9005E2383 /* HABarChat */,
+=======
+				41FA43B91D29B9FD00C7D876 /* HABarChart */,
+>>>>>>> 26fcb34494ad2867c3c0c14420cddca1f567690e
 				41FA43B81D29B9FD00C7D876 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,6 +171,37 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
+=======
+		41FA43B91D29B9FD00C7D876 /* HABarChart */ = {
+			isa = PBXGroup;
+			children = (
+				41FA43BD1D29B9FD00C7D876 /* AppDelegate.h */,
+				41FA43BE1D29B9FD00C7D876 /* AppDelegate.m */,
+				41FA43C01D29B9FD00C7D876 /* ViewController.h */,
+				41FA43C11D29B9FD00C7D876 /* ViewController.m */,
+				41FA43C31D29B9FD00C7D876 /* Main.storyboard */,
+				4141F57E1D29DD0200192718 /* CircleLayer */,
+				4141F5801D29DD1800192718 /* Line&CircleView */,
+				4141F57F1D29DD0E00192718 /* LineLayer */,
+				41FA43C61D29B9FD00C7D876 /* Assets.xcassets */,
+				41FA43C81D29B9FD00C7D876 /* LaunchScreen.storyboard */,
+				41FA43CB1D29B9FD00C7D876 /* Info.plist */,
+				41FA43BA1D29B9FD00C7D876 /* Supporting Files */,
+			);
+			name = HABarChart;
+			path = TestChart;
+			sourceTree = "<group>";
+		};
+		41FA43BA1D29B9FD00C7D876 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41FA43BB1D29B9FD00C7D876 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+>>>>>>> 26fcb34494ad2867c3c0c14420cddca1f567690e
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -165,10 +259,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				41215C371D36F57A005E2383 /* Info.plist in Resources */,
 				41215C301D36F4FD005E2383 /* Main.storyboard in Resources */,
 				41215C2E1D36F4FD005E2383 /* Assets.xcassets in Resources */,
 				41215C2F1D36F4FD005E2383 /* LaunchScreen.storyboard in Resources */,
+=======
+				41FA43CA1D29B9FD00C7D876 /* LaunchScreen.storyboard in Resources */,
+				41FA43C71D29B9FD00C7D876 /* Assets.xcassets in Resources */,
+				41FA43C51D29B9FD00C7D876 /* Main.storyboard in Resources */,
+>>>>>>> 26fcb34494ad2867c3c0c14420cddca1f567690e
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				41215C331D36F4FD005E2383 /* ViewController.m in Sources */,
 				41215C1F1D36F4C9005E2383 /* CircleLayer.m in Sources */,
 				41215C201D36F4C9005E2383 /* CircleView.m in Sources */,
@@ -186,12 +287,21 @@
 				41215C1E1D36F4C9005E2383 /* BarView.m in Sources */,
 				41215C381D36F57A005E2383 /* main.m in Sources */,
 				41215C2D1D36F4FD005E2383 /* AppDelegate.m in Sources */,
+=======
+				41FA43C21D29B9FD00C7D876 /* ViewController.m in Sources */,
+				41FA43D31D29BA2A00C7D876 /* BarLayer.m in Sources */,
+				41FA43BF1D29B9FD00C7D876 /* AppDelegate.m in Sources */,
+				41FA43D91D29C29F00C7D876 /* LineLayer.m in Sources */,
+				41FA43BC1D29B9FD00C7D876 /* main.m in Sources */,
+				41FA43D61D29BA8400C7D876 /* BarView.m in Sources */,
+>>>>>>> 26fcb34494ad2867c3c0c14420cddca1f567690e
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+<<<<<<< HEAD
 		41215C251D36F4FD005E2383 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -206,6 +316,22 @@
 				41215C281D36F4FD005E2383 /* Base */,
 			);
 			name = Main.storyboard;
+=======
+		41FA43C31D29B9FD00C7D876 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41FA43C41D29B9FD00C7D876 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		41FA43C81D29B9FD00C7D876 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41FA43C91D29B9FD00C7D876 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+>>>>>>> 26fcb34494ad2867c3c0c14420cddca1f567690e
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -248,7 +374,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+<<<<<<< HEAD
 				INFOPLIST_FILE = ExampleProject/SupportingFiles/Info.plist;
+=======
+>>>>>>> 26fcb34494ad2867c3c0c14420cddca1f567690e
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -288,7 +417,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+<<<<<<< HEAD
 				INFOPLIST_FILE = ExampleProject/SupportingFiles/Info.plist;
+=======
+>>>>>>> 26fcb34494ad2867c3c0c14420cddca1f567690e
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
@@ -301,6 +433,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+<<<<<<< HEAD
+=======
+				INFOPLIST_FILE = TestChart/Info.plist;
+>>>>>>> 26fcb34494ad2867c3c0c14420cddca1f567690e
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = d.TestChart;
 				PRODUCT_NAME = HABarChart;
@@ -311,6 +447,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+<<<<<<< HEAD
+=======
+				INFOPLIST_FILE = TestChart/Info.plist;
+>>>>>>> 26fcb34494ad2867c3c0c14420cddca1f567690e
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = d.TestChart;
 				PRODUCT_NAME = HABarChart;
