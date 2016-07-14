@@ -16,8 +16,8 @@
 		41215C2F1D36F4FD005E2383 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41215C251D36F4FD005E2383 /* LaunchScreen.storyboard */; };
 		41215C301D36F4FD005E2383 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41215C271D36F4FD005E2383 /* Main.storyboard */; };
 		41215C331D36F4FD005E2383 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41215C2C1D36F4FD005E2383 /* ViewController.m */; };
-		41215C371D36F57A005E2383 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 41215C351D36F57A005E2383 /* Info.plist */; };
-		41215C381D36F57A005E2383 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41215C361D36F57A005E2383 /* main.m */; };
+		418A4F291D377D270044A022 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 418A4F271D377D270044A022 /* main.m */; };
+		418A4F2B1D377D300044A022 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 418A4F2A1D377D300044A022 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,8 +36,9 @@
 		41215C281D36F4FD005E2383 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41215C2B1D36F4FD005E2383 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		41215C2C1D36F4FD005E2383 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		41215C351D36F57A005E2383 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		41215C361D36F57A005E2383 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		418A4F261D377D270044A022 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		418A4F271D377D270044A022 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		418A4F2A1D377D300044A022 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		41FA43B71D29B9FD00C7D876 /* HABarChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HABarChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -77,23 +78,24 @@
 				41215C241D36F4FD005E2383 /* Assets.xcassets */,
 				41215C251D36F4FD005E2383 /* LaunchScreen.storyboard */,
 				41215C271D36F4FD005E2383 /* Main.storyboard */,
-				41215C341D36F51A005E2383 /* SupportingFiles */,
+				41215C341D36F51A005E2383 /* Supporting Files */,
 			);
 			path = ExampleProject;
 			sourceTree = "<group>";
 		};
-		41215C341D36F51A005E2383 /* SupportingFiles */ = {
+		41215C341D36F51A005E2383 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				41215C351D36F57A005E2383 /* Info.plist */,
-				41215C361D36F57A005E2383 /* main.m */,
+				418A4F261D377D270044A022 /* Info.plist */,
+				418A4F271D377D270044A022 /* main.m */,
 			);
-			path = SupportingFiles;
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		41FA43AE1D29B9FD00C7D876 = {
 			isa = PBXGroup;
 			children = (
+				418A4F2A1D377D300044A022 /* Default-568h@2x.png */,
 				41215C211D36F4FD005E2383 /* ExampleProject */,
 				41215C141D36F4C9005E2383 /* HABarChat */,
 				41FA43B81D29B9FD00C7D876 /* Products */,
@@ -165,9 +167,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41215C371D36F57A005E2383 /* Info.plist in Resources */,
 				41215C301D36F4FD005E2383 /* Main.storyboard in Resources */,
 				41215C2E1D36F4FD005E2383 /* Assets.xcassets in Resources */,
+				418A4F2B1D377D300044A022 /* Default-568h@2x.png in Resources */,
 				41215C2F1D36F4FD005E2383 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -184,7 +186,7 @@
 				41215C201D36F4C9005E2383 /* CircleView.m in Sources */,
 				41215C1D1D36F4C9005E2383 /* BarLayer.m in Sources */,
 				41215C1E1D36F4C9005E2383 /* BarView.m in Sources */,
-				41215C381D36F57A005E2383 /* main.m in Sources */,
+				418A4F291D377D270044A022 /* main.m in Sources */,
 				41215C2D1D36F4FD005E2383 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,7 +250,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = ExampleProject/SupportingFiles/Info.plist;
+				INFOPLIST_FILE = "ExampleProject/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -288,7 +290,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				INFOPLIST_FILE = ExampleProject/SupportingFiles/Info.plist;
+				INFOPLIST_FILE = "ExampleProject/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
