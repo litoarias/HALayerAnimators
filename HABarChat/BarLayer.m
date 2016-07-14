@@ -26,7 +26,7 @@
     
     if (dottedLine)
     {
-        self.lineDashPattern = [NSArray arrayWithObjects:[NSNumber numberWithInt:2],[NSNumber numberWithInt:3 ], nil];
+        self.lineDashPattern = [NSArray arrayWithObjects:[NSNumber numberWithInt:self.lineWidth],[NSNumber numberWithInt:self.lineWidth], nil];
     }
     
     

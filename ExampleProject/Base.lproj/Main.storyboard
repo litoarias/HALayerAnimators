@@ -55,9 +55,9 @@
                                     <userDefinedRuntimeAttribute type="color" keyPath="strokeColor">
                                         <color key="value" red="0.80000001190000003" green="0.40000000600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="dottedLine" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="dottedLine" value="YES"/>
                                     <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
-                                        <integer key="value" value="5"/>
+                                        <integer key="value" value="12"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="animateDuration">
                                         <integer key="value" value="4"/>
