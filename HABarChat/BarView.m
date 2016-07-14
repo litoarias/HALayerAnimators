@@ -38,10 +38,10 @@
     self.animateDuration = self.animateDuration;
     
     [(BarLayer *)self.layer computePathWithRect:self.bounds
-                                       strokeColor:self.strokeColor
-                                        dottedLine:self.dottedLine
-                                         lineWidth:self.lineWidth
-                                   animateDuration:self.animateDuration];
+                                    strokeColor:self.strokeColor
+                                     dottedLine:self.dottedLine
+                                      lineWidth:self.lineWidth
+                                animateDuration:self.animateDuration];
     
 }
 # pragma mark - UIResponder

@@ -10,32 +10,11 @@
 
 @implementation BarLayer
 
-- (id)init
-{
-    self = [super init];
-    if (self)
-    {
-        UIColor *fill = [UIColor brownColor];
-        self.strokeStart = 0.0;
-        self.strokeColor = fill.CGColor;
-        self.lineWidth = 15.0;
-        self.lineJoin = kCALineJoinRound;
-        
-        CABasicAnimation *pathAnimation = [CABasicAnimation animationWithKeyPath:@"strokeEnd"];
-        pathAnimation.duration = 1.5f;
-        pathAnimation.fromValue = [NSNumber numberWithFloat:0.0f];
-        pathAnimation.toValue = [NSNumber numberWithFloat:1.0f];
-        [self addAnimation:pathAnimation forKey:@"strokeEnd"];
-    }
-    return self;
-}
-
-
 - (void)computePathWithRect:(CGRect)rect
-                 strokeColor:(UIColor *)strokeColor
-                  dottedLine:(BOOL)dottedLine
-                   lineWidth:(NSInteger)lineWidth
-             animateDuration:(NSInteger)animateDuration
+                strokeColor:(UIColor *)strokeColor
+                 dottedLine:(BOOL)dottedLine
+                  lineWidth:(NSInteger)lineWidth
+            animateDuration:(NSInteger)animateDuration
 {
     self.strokeColor = strokeColor.CGColor;
     self.fillColor = nil;
