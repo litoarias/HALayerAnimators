@@ -18,12 +18,62 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tsb-jp-WHW" customClass="CircleView">
+                                <rect key="frame" x="20" y="28" width="100" height="100"/>
+                                <color key="backgroundColor" red="1" green="0.17254901959999999" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="strokeColor">
+                                        <color key="value" red="0.80000001190000003" green="0.40000000600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="dottedLine" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="animateDuration">
+                                        <integer key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Muc-lo-PlP" customClass="CircleView">
+                                <rect key="frame" x="159" y="28" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.40000000600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="strokeColor">
+                                        <color key="value" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="dottedLine" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="animateDuration">
+                                        <integer key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="enf-MY-F7c" customClass="BarView">
+                                <rect key="frame" x="20" y="153" width="296" height="4"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="strokeColor">
+                                        <color key="value" red="1" green="0.17254901959999999" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="dottedLine" value="NO"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                                        <integer key="value" value="6"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="animateDuration">
+                                        <integer key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="direction">
+                                        <integer key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SMP-w6-4XE" customClass="BarView">
-                                <rect key="frame" x="176" y="38" width="3" height="298"/>
+                                <rect key="frame" x="345" y="28" width="3" height="298"/>
                                 <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="298" id="BYe-KU-83J"/>
-                                    <constraint firstAttribute="width" constant="3" id="JDz-6r-Yyj"/>
+                                    <constraint firstAttribute="width" constant="3" id="VhF-fd-6yc"/>
                                     <constraint firstAttribute="height" constant="1" id="ZU3-Pk-QQv"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
@@ -38,7 +88,7 @@
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="dottedLine" value="YES"/>
                                     <userDefinedRuntimeAttribute type="number" keyPath="direction">
-                                        <integer key="value" value="2"/>
+                                        <integer key="value" value="0"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <variation key="default">
@@ -47,33 +97,24 @@
                                     </mask>
                                 </variation>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tsb-jp-WHW" customClass="CircleView">
-                                <rect key="frame" x="36" y="250" width="100" height="100"/>
-                                <color key="backgroundColor" red="1" green="0.17254901959999999" blue="0.33333333329999998" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="4XN-eI-GfY"/>
-                                    <constraint firstAttribute="height" constant="100" id="LS4-3C-6hk"/>
-                                </constraints>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="strokeColor">
-                                        <color key="value" red="0.80000001190000003" green="0.40000000600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="boolean" keyPath="dottedLine" value="YES"/>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
-                                        <integer key="value" value="12"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="animateDuration">
-                                        <integer key="value" value="4"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="SMP-w6-4XE" firstAttribute="leading" secondItem="tsb-jp-WHW" secondAttribute="trailing" constant="40" id="DFF-Sf-HH7"/>
-                            <constraint firstItem="tsb-jp-WHW" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="230" id="jpY-7S-AV5"/>
-                            <constraint firstItem="tsb-jp-WHW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="16" id="pTA-Tq-PG8"/>
-                            <constraint firstItem="SMP-w6-4XE" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="18" id="yxc-l8-I5k"/>
+                            <constraint firstItem="tsb-jp-WHW" firstAttribute="bottom" secondItem="Muc-lo-PlP" secondAttribute="bottom" id="1wT-Zs-hRZ"/>
+                            <constraint firstItem="SMP-w6-4XE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="345" id="4SP-wS-9Pt"/>
+                            <constraint firstItem="Muc-lo-PlP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="159" id="Esm-Ip-zvY"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="enf-MY-F7c" secondAttribute="bottom" constant="443" id="HMn-e7-NRk"/>
+                            <constraint firstItem="SMP-w6-4XE" firstAttribute="leading" secondItem="Muc-lo-PlP" secondAttribute="trailing" constant="86" id="QwX-jd-q9d"/>
+                            <constraint firstItem="tsb-jp-WHW" firstAttribute="top" secondItem="Muc-lo-PlP" secondAttribute="top" id="W5f-ii-3qZ"/>
+                            <constraint firstItem="tsb-jp-WHW" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="WYt-3C-J9N"/>
+                            <constraint firstItem="Muc-lo-PlP" firstAttribute="top" secondItem="SMP-w6-4XE" secondAttribute="top" id="ZT4-1g-5Kj"/>
+                            <constraint firstItem="enf-MY-F7c" firstAttribute="top" secondItem="tsb-jp-WHW" secondAttribute="bottom" constant="25" id="fpS-XV-gNf"/>
+                            <constraint firstAttribute="bottom" secondItem="SMP-w6-4XE" secondAttribute="bottom" constant="274" id="lyh-ft-Y31"/>
+                            <constraint firstItem="Muc-lo-PlP" firstAttribute="leading" secondItem="tsb-jp-WHW" secondAttribute="trailing" constant="39" id="ouj-wp-9hd"/>
+                            <constraint firstItem="enf-MY-F7c" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="153" id="rNK-Sn-iPq"/>
+                            <constraint firstItem="SMP-w6-4XE" firstAttribute="leading" secondItem="enf-MY-F7c" secondAttribute="trailing" constant="29" id="sdE-gD-cRN"/>
+                            <constraint firstItem="tsb-jp-WHW" firstAttribute="leading" secondItem="enf-MY-F7c" secondAttribute="leading" id="uNt-Ms-ARS"/>
+                            <constraint firstItem="tsb-jp-WHW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="vO3-p0-NQW"/>
                         </constraints>
                     </view>
                 </viewController>

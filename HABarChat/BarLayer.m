@@ -19,8 +19,6 @@
 
 @implementation BarLayer
 
-
-
 - (void)computePathWithRect:(CGRect)rect
                 strokeColor:(UIColor *)strokeColor
                  dottedLine:(BOOL)dottedLine
@@ -38,7 +36,7 @@
     
     if (dottedLine)
     {
-        self.lineDashPattern = [NSArray arrayWithObjects:[NSNumber numberWithInt:self.lineWidth],[NSNumber numberWithInt:self.lineWidth], nil];
+        self.lineDashPattern = [NSArray arrayWithObjects:[NSNumber numberWithInt:2],[NSNumber numberWithInt:3], nil];
     }
     
     path = [UIBezierPath bezierPath];

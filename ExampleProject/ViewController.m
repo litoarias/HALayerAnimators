@@ -22,8 +22,8 @@
     [super viewDidLoad];
     
     
-    BarView *barView = [[BarView alloc] initWithFrame:CGRectMake(20,
-                                                                 CGRectGetHeight(self.view.frame) - 200,
+    BarView *barView = [[BarView alloc] initWithFrame:CGRectMake(50,
+                                                                 200,
                                                                  10,
                                                                  100)];
     barView.strokeColor = [UIColor redColor];
@@ -32,8 +32,8 @@
     barView.direction = TopToBottom;
     barView.animateDuration = 2;
     
-    CircleView *circleView = [[CircleView alloc] initWithFrame:CGRectMake(140,
-                                                                          CGRectGetHeight(self.view.frame) - 200,
+    CircleView *circleView = [[CircleView alloc] initWithFrame:CGRectMake(160,
+                                                                          200,
                                                                           100,
                                                                           100)];
     circleView.strokeColor = [UIColor redColor];

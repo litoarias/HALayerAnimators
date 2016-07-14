@@ -10,10 +10,10 @@
 
 typedef NS_ENUM(NSUInteger, AnimateDirection)
 {
-    TopToBottom,
-    BottomToTop,
-    LeftToRight,
-    RightToLeft
+    TopToBottom = 1,
+    BottomToTop = 2,
+    LeftToRight = 3,
+    RightToLeft = 4
 };
 
 IB_DESIGNABLE
