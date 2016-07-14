@@ -8,6 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+typedef NS_ENUM(NSUInteger, AnimateDirection)
+{
+    TopToBottom,
+    BottomToTop,
+    LeftToRight,
+    RightToLeft
+};
+
 IB_DESIGNABLE
 
 @interface BarView : UIView
@@ -16,5 +24,10 @@ IB_DESIGNABLE
 @property (nonatomic) IBInspectable BOOL dottedLine;
 @property (nonatomic) IBInspectable NSInteger lineWidth;
 @property (nonatomic) IBInspectable NSInteger animateDuration;
+#if TARGET_INTERFACE_BUILDER
+@property (nonatomic) IBInspectable NSUInteger direction;
+#else
+@property (nonatomic) AnimateDirection direction;
+#endif
 
 @end

@@ -7,13 +7,25 @@
 //
 
 #import "BarLayer.h"
+#import "BarView.h"
+
+@interface BarLayer ()
+{
+    CGPoint movePoint;
+    CGPoint addLine;
+    UIBezierPath *path;
+}
+@end
 
 @implementation BarLayer
+
+
 
 - (void)computePathWithRect:(CGRect)rect
                 strokeColor:(UIColor *)strokeColor
                  dottedLine:(BOOL)dottedLine
                   lineWidth:(NSInteger)lineWidth
+                  direction:(NSUInteger)direction
             animateDuration:(NSInteger)animateDuration
 {
     self.strokeColor = strokeColor.CGColor;
@@ -29,10 +41,12 @@
         self.lineDashPattern = [NSArray arrayWithObjects:[NSNumber numberWithInt:self.lineWidth],[NSNumber numberWithInt:self.lineWidth], nil];
     }
     
+    path = [UIBezierPath bezierPath];
     
-    UIBezierPath *path = [UIBezierPath bezierPath];
-    [path moveToPoint:CGPointMake(0.0, rect.size.height)];
-    [path addLineToPoint:CGPointMake(0, 0)];
+    [self obtainPointsToMoveWithDirection:direction rect:rect];
+    
+    [self obtainPathToMoveWithDirection:direction rect:rect];
+    
     self.path = path.CGPath;
     
     CABasicAnimation * animation = [CABasicAnimation animationWithKeyPath:@"strokeEnd"];
@@ -45,6 +59,90 @@
     
     [self addAnimation:animation forKey:@"strokeEnd"];
     
+}
+
+
+- (void)obtainPointsToMoveWithDirection:(AnimateDirection)direction rect:(CGRect)rect
+{
+    switch (direction)
+    {
+        case TopToBottom:
+        {
+            movePoint = CGPointMake(0.0, rect.size.height);
+            addLine = CGPointMake(0, 0);
+        }
+            break;
+            
+        case BottomToTop:
+        {
+            movePoint = CGPointMake(0.0, rect.size.height);
+            addLine = CGPointMake(0, 0);
+        }
+            break;
+            
+        case LeftToRight:
+        {
+            movePoint = CGPointMake(rect.size.width, 0.0);
+            addLine = CGPointMake(0.0, 0);
+        }
+            break;
+            
+        case RightToLeft:
+        {
+            movePoint = CGPointMake(rect.size.width, 0.0);
+            addLine = CGPointMake(0.0, 0);
+        }
+            break;
+            
+        default:
+        {
+            movePoint = CGPointMake(0.0, rect.size.height);
+            addLine = CGPointMake(0, 0);
+        }
+            break;
+    }
+    
+}
+
+- (void)obtainPathToMoveWithDirection:(AnimateDirection)direction rect:(CGRect)rect
+{
+    switch (direction)
+    {
+        case TopToBottom:
+        {
+            [path moveToPoint:addLine];
+            [path addLineToPoint:movePoint];
+        }
+            break;
+            
+        case BottomToTop:
+        {
+            [path moveToPoint:movePoint];
+            [path addLineToPoint:addLine];
+        }
+            break;
+            
+        case LeftToRight:
+        {
+            [path moveToPoint:addLine];
+            [path addLineToPoint:movePoint];
+        }
+            break;
+            
+        case RightToLeft:
+        {
+            [path moveToPoint:movePoint];
+            [path addLineToPoint:addLine];
+        }
+            break;
+            
+        default:
+        {
+            [path moveToPoint:movePoint];
+            [path addLineToPoint:addLine];
+        }
+            break;
+    }
 }
 
 # warning Progress

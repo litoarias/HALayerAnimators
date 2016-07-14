@@ -13,6 +13,7 @@
                 strokeColor:(UIColor *)strokeColor
                  dottedLine:(BOOL)dottedLine
                   lineWidth:(NSInteger)lineWidth
+                  direction:(NSUInteger)direction
             animateDuration:(NSInteger)animateDuration;
 
 @end

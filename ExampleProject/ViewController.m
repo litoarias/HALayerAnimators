@@ -24,11 +24,12 @@
     
     BarView *barView = [[BarView alloc] initWithFrame:CGRectMake(20,
                                                                  CGRectGetHeight(self.view.frame) - 200,
-                                                                 20,
+                                                                 10,
                                                                  100)];
     barView.strokeColor = [UIColor redColor];
     barView.dottedLine = NO;
     barView.lineWidth = 3;
+    barView.direction = TopToBottom;
     barView.animateDuration = 2;
     
     CircleView *circleView = [[CircleView alloc] initWithFrame:CGRectMake(140,
